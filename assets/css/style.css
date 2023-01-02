@@ -1,0 +1,48 @@
+/*
+*/
+/*--common css start--*/
+h1,h2,h3,h4,h5,h6,
+p,
+ul,li,
+span,
+small{
+    padding: 0;
+    margin: 0;
+}
+ol,ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/*--common css end--*/
+*/--nav section start--*/
+nav #mainmenu .navbar_icon ul li button{
+    background: none;
+    border: none;
+    position: relative;
+}
+
+nav #mainmenu .navbar_icon ul li button span{
+    position: absolute;
+    right: -7px;
+    top: -6px;
+    width: 15px;
+    height: 15px;
+    font-size: 14px;
+    border-radius: 50%;
+    background:#FF6F61;
+    display: inline-block;
+    text-align: center;
+    line-height: 15px;
+    color: whote;
+   
+
+}
+/*--banner section start--*/
+#banner .banner_slider_item{
+    height: 800px;
+    background-size: cover !important;
+    background-position: center !important;
+
+}
